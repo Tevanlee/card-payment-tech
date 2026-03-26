@@ -1,0 +1,11 @@
+.toast {
+  background-color: var(--surface);
+}
+
+.error {
+  background-color: var(--error);
+}
+
+.success {
+  background-color: var(--success);
+}

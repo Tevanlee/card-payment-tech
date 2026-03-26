@@ -1,0 +1,11 @@
+.toggleWrap {
+  background-color: var(--foreground);
+}
+
+.toggleButton {
+  background-color: var(--background);
+}
+
+.toggle:has(input[type="checkbox"]:checked) > .toggleWrap {
+  background-color: var(--primary);
+}

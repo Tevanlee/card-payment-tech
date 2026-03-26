@@ -1,0 +1,17 @@
+.card {
+  background-color: var(--surface);
+}
+
+.card:hover {
+  border-color: var(--primary);
+}
+
+.iconWrap {
+  svg {
+    width: 34px;
+  }
+}
+
+.selected {
+  border-color: var(--primary);
+}

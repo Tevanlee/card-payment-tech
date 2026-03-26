@@ -1,0 +1,14 @@
+.button {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+.button:hover {
+  border-color: var(--primary);
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+.button:disabled {
+  pointer-events: none;
+}
