@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Payment Iframe</title>
+  </head>
+  <body>
+    <form class="cardDetails">
+      <input
+        id="holder"
+        name="holder"
+        type="text"
+        placeholder="Cardholder full name"
+        required
+        pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$"
+        title="Enter a valid name (letters and spaces only, 2-50 characters)"
+      />
+
+      <input
+        id="pan"
+        name="pan"
+        type="text"
+        placeholder="1234 5678 9012 3456"
+        required
+        pattern="^\d{0,19}$"
+        maxlength="19"
+        inputmode="numeric"
+        title="Enter a valid 16-digit card number"
+        inputmode="numeric"
+      />
+
+      <input
+        id="expiry"
+        name="expiry"
+        type="text"
+        placeholder="MM/YY"
+        required
+        pattern="^(0[1-9]|1[0-2])\/\d{2}$"
+        maxlength="5"
+        inputmode="numeric"
+        title="Enter expiry date in MM/YY format"
+      />
+
+      <input
+        id="cvv"
+        name="cvv"
+        type="text"
+        placeholder="123"
+        required
+        pattern="^\d{3,4}$"
+        maxlength="4"
+        title="Enter a 3 or 4-digit CVV"
+        inputmode="numeric"
+      />
+    </form>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

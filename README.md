@@ -25,6 +25,7 @@ npm run dev
 ### 3. Open the application
 
 Open the application in your browser to view and test:
+
 NextJs App: http://localhost:3000
 Payment Provider: http://localhost:3001
 
@@ -39,3 +40,8 @@ npm test
 ```
 
 ---
+
+## Notes
+
+- All API interactions in this project are mocked to simulate real-world request/response flows.
+- Comments are included where they add context and guidance or clarify intent. The code is written to be self-explanatory.

@@ -9,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.19",
     "clsx": "^2.1.1",
     "concurrently": "^9.2.1",
     "lucide-react": "^0.561.0",
@@ -32,14 +33,13 @@
     "ts-node": "^10.9.2",
     "typescript": "^5"
   },
-  "description": "First, run the development server:",
+  "description": "Mock card payment flow built with Next.js and React Query",
+  "author": "Tevan Wilfred",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tevanlee/card-payment-tech.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
