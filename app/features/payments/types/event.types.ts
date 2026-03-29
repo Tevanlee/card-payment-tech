@@ -1,7 +1,0 @@
-export type IframeEvents =
-  | "CARD_IFRAME_READY"
-  | "INJECT_STYLES"
-  | "STYLES_APPLIED"
-  | "TOKENIZE_CARD"
-  | "VALIDATION_ERROR"
-  | "CARD_TOKENIZED";
